@@ -1,0 +1,112 @@
+body {
+    background-color: #252525;
+    /* background-size:100vw; */
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-image: url("./assets/images/dan-riding-480x800.png");
+}
+
+.splash-screen {
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.strapline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 0.25em;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 4 / 6;
+    margin-left:0.3em;
+}
+
+.strapline span{
+    color: orange;
+}
+
+@media (min-width: 390px) {
+    body {
+        background-image: url("./assets/images/dan-riding-480x800.png");
+    }
+    .splash-screen {
+        height: 800px;
+    }
+    .strapline {
+        font-size: 3em;
+        margin-left: 0.4em;
+        grid-column: 1/3;
+    }
+}
+@media (min-width: 480px) {
+    body {
+        background-image: url("./assets/images/dan-riding-576x700.png");
+    }
+    .splash-screen {
+        height: 700px;
+    }
+    .strapline {
+        font-size: 3.5em;
+        margin-left: 0.5em;
+    }
+}
+@media (min-width: 576px) {
+    body {
+        background-image: url("./assets/images/dan-riding-768x750.png");
+    }
+    .splash-screen {
+        height: 750px;
+    }
+    .strapline {
+        font-size: 3.5em;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url("./assets/images/dan-riding-992x800.png");
+    }
+    .splash-screen {
+        height: 800px;
+    }
+    .strapline {
+        font-size: 4em;
+        margin-left: 0.7em;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        background-image: url("./assets/images/dan-riding-1200x900.png");
+    }
+    .splash-screen {
+        height: 900px;
+    }
+    .strapline {
+        font-size: 5em;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-image: url("./assets/images/dan-riding-1600x1000.png");
+    }
+    .splash-screen {
+        height: 1000px;
+    }
+    .strapline {
+        font-size: 7.5em;
+    }
+}
+@media (min-width: 1600px) {
+    body {
+        background-image: url("./assets/images/dan-riding-2000x1080.png");
+    }
+    .splash-screen {
+        height: 1000px;
+    }
+    .strapline {
+        font-size: 9em;
+    }
+}
+

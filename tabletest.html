@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin:0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            overflow: hidden;
+            margin:0;
+            padding:0;
+        }
+        .table {
+            overflow-y: auto;
+            display: grid;
+
+            background-color: yellow;
+        }
+        .quantity-column {
+            grid-column: 1/2;
+            background-color:lightblue;
+        }
+        .detail-column {
+            grid-column: 2/3;
+            background-color:lightcoral;
+        }
+        textarea {
+            width: 100%;
+            resize: none;
+            padding:0;
+            margin:0;
+        }
+        input {
+            width: 100%;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 7fr;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="table">
+            <div class="row">
+                <div class="quantity-column">
+                    <input type="text" />
+                </div>
+                <div class="detail-column">
+                    <textarea rows="50" cols="200"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="quantity-column">
+                    <input type="text" />
+                </div>
+                <div class="detail-column">
+                    <textarea rows="50" cols="200"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

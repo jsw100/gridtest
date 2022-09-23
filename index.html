@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            margin:0;
+        }
+        .page {
+            height:100vh;
+            display: grid;
+            grid-template-rows: 60px 1fr 40px;
+            grid-template-areas: 'pageheader' 'pagecontent' 'pagefooter'; 
+            overflow:hidden;
+        }
+        .pageheader {
+            background-color: red;
+            grid-area: pageheader;
+        }
+        .pagefooter {
+            background-color: pink;
+            grid-area: pagefooter;
+        }
+        .pagecontent {
+            background-color: blue;
+            grid-area: pagecontent;
+
+            display: grid;
+            grid-template-rows: 40px 1fr;
+            grid-template-areas: 'header' 'content';
+
+        }
+        .contentheader {
+            background-color: lightgreen;
+            grid-row: 1/2;
+        }
+        .content {
+            grid-row: 2/3;
+            display: grid;
+
+            grid-template-columns: 0.3fr 0.7fr;
+            grid-template-rows: 1fr;
+            overflow: hidden;
+        }
+        .leftbar {
+            background-color: lightblue;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            overflow-y: auto;
+        }
+        .rightbar {
+            background-color: lemonchiffon;
+            grid-column: 2/3;
+            display: grid;
+            grid-template-rows: 20px 1fr 20px;
+            grid-template-columns: 1fr;
+            overflow: auto;
+        }
+        .viewheader {
+            background-color:lightslategrey;
+            grid-row: 1/2;
+        }
+        .viewcontent {
+            background-color:magenta;
+            grid-row: 2/3;
+            overflow-y: auto;
+        }
+        .viewfooter {
+            background-color:mediumvioletred;
+            grid-row: 3/4;
+        }
+
+    </style>
+<header>
+</header>
+
+<body>
+    <form>
+    <button type="submit" formaction="https://google.co.uk">Button</button> 
+    <button type="submit" formaction="https://linkradio.co.uk">Button2</button> 
+    </form>
+    <div class="page">
+        <div class="pageheader">
+            <div class="pagemenu">
+
+            </div>
+
+        </div>
+        <div class="pagecontent">
+            <div class="contentheader">
+
+            </div>
+            <div class="content">
+                <div class="leftbar">
+                    <ul>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                        <li>hhsfiufh</li>
+                    </ul>
+
+                </div>
+                <div class="rightbar">
+                    <div class="viewheader">
+
+                    </div>
+                    <div class="viewcontent">
+                        <div class="scrolling">
+                            <ul>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                                <li>hhsfiufh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="viewfooter">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagefooter">
+
+        </div>
+    </div>
+</body>
+</html>
